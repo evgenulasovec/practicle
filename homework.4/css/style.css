@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fffaf3;
+}
+header {
+  background: #fffaf3;
+  padding-top: 50px;
+  max-height: 200px;
+}
+main {
+  max-height: 1000px;
+  background: #fffaf3;
+}
+.container {
+  width: 50%;
+  height: 40vh;
+  margin-left: 182px;
+  padding-bottom: 20px;
+}
+.foto {
+  width: 49%;
+  height: 40vh;
+}
+
+.vin {
+  position: absolute;
+  width: 660px;
+  height: 878px;
+  left: 1444px;
+  top: -65px;
+}
+nav {
+  display: inline-block;
+}
+.spis {
+  display: inline-block;
+  width: 404px;
+  height: 27px;
+  margin-left: 83.36px;
+  margin-bottom: 40px;
+  vertical-align: middle;
+}
+.spis::after {
+  display: inline-block;
+  content: "";
+  border: 1px solid #c08d5d;
+  margin-top: 40px;
+  width: 404px;
+}
+h2 {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: 0.06em;
+  color: #3f4042;
+  margin-top: 100px;
+}
+h2::after {
+  display: inline-block;
+  content: "";
+  background-image: url(../images/Logo.svg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 67px;
+  margin-left: 22px;
+}
+h1 {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 81px;
+  letter-spacing: 0.06em;
+  color: #3f4042;
+}
+p {
+  margin-top: 26px;
+  display: inline-block;
+  width: 535px;
+  height: 108px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 147.6%;
+  letter-spacing: 0.06em;
+
+  color: #3f4042;
+}
+h1::after {
+  display: block;
+  content: "";
+  background-image: url(../images/Vector\ 1.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 165px;
+  height: 12px;
+  margin-top: 45px;
+  margin-bottom: 26px;
+}
+.bat{
+  margin-top: 72px;
+}
+.batton {
+  display: block;
+  width: 143px;
+  height: 64px;
+  background: #fffaf3;
+  border: 2px solid #c08d5d;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 147.6%;
+  letter-spacing: 0.06em;
+  color: #3f4042;
+  text-decoration: none;
+  padding: 17px 11px 17px 15px;
+  margin-left: 0px;
+  margin-top: 72px;
+}
+.batton::after{
+  display: inline-block;
+  contain: '&ge;';
+  background: #c08d5d;
+  color: white;
+  width: 59px;
+  height: 64px;
+  border: 2px solid #c08d5d;
+}
+
+.mouse {
+  display: block;
+  margin: 0 auto;
+}
+nav li {
+  display: inline-block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  margin-right: 55px;
+  text-decoration: none;
+}
+a:hover {
+  color: #c08d5d;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+}
